@@ -1,0 +1,135 @@
+
+.container-header {
+    background-image: url(./images/imagem_menu.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.itens-nav {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.logo-logo_image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+    gap: 5px;
+
+}
+
+.logo .logo-image {
+    cursor: pointer;
+}
+
+.item {
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(253,185,6,255);
+    border-radius: 25px;
+
+}
+
+.logo-image {
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px ;
+}
+
+.item {
+    padding-top: 5px;
+    color: white;
+    font-size: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.text_h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text_h2{
+    color: rgba(253,185,6,255);
+    margin-top: 10px;
+    font-style: none;
+    font-size: 15px;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.base {
+    background-color:antiquewhite;
+    height: 300px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 20px solid rgba(253,185,6,255);
+}
+
+.base_1{
+    background-color:antiquewhite;
+    height: 300px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens_flores{
+    height: 230px;
+    width: 240px;
+
+}
+
+.imagens_flores_2 {
+    height: 230px;
+    width: 240px;
+    margin-bottom: 20px;
+
+}
+
+.border {
+    border: 5px solid black;
+
+}
