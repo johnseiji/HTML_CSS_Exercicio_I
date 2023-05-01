@@ -95,7 +95,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
+
+.box-container {
+    background: linear-gradient(black, rgb(68, 68, 68));
+    border-top: 15px solid rgba(253,185,6,255);
+    width: 80%;
+    height: 400px;
+    margin-top: -100px;
+
 }
 
 
@@ -114,22 +122,4 @@
     width: 70%;
     display: flex;
     justify-content: space-around;
-}
-
-.imagens_flores{
-    height: 230px;
-    width: 240px;
-
-}
-
-.imagens_flores_2 {
-    height: 230px;
-    width: 240px;
-    margin-bottom: 20px;
-
-}
-
-.border {
-    border: 5px solid black;
-
 }
